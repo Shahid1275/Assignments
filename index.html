@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Assignment</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<h2>JavaScript Assignment # 1</h2>
+
+<select id="dropdown" onchange="toggleRows()">
+  <option value="show">Show</option>
+  <option value="hide">Hide</option>
+</select>
+<button id="toggleButton" onclick="toggleRows()">Hide</button>
+<table >
+    <br><br>
+  <thead>
+    <tr>
+      <th><input type="checkbox" id="masterCheckbox" onclick="toggleAllCheckboxes()">Select All</th>
+      <th>Title</th>
+      <th>Duration</th>
+      <th>Link\Resources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" class="rowCheckbox"> </td>
+      <td>JavaScript Basics</td>
+      <td>1 week</td>
+      <td><a href="https://www.w3schools.com/js/" >W3 Schools</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" class="rowCheckbox"></td>
+      <td>Asynchronus JavaScript</td>
+      <td>1 and 30 minutes</td>
+      <td><a href="https://www.w3schools.com/js/" >w3 Schools</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" class="rowCheckbox"></td>
+      <td>JavaScript functions</td>
+      <td>2 hour</td>
+      <td><a href="https://www.w3schools.com/js/" >W3 Schools</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" class="rowCheckbox"></td>
+      <td>JavaScript Dom Events</td>
+      <td>1 week</td>
+      <td><a href="https://www.w3schools.com/js/" >W3 Schools</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" class="rowCheckbox"></td>
+      <td>Error Handling</td>
+      <td>2 weeks</td>
+      <td><a href="https://www.w3schools.com/js/">W3 Schools</a></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

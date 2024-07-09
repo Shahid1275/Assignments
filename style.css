@@ -1,0 +1,26 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px;
+
+  }
+  th, td {
+    border: 1px solid black;
+  }
+  th{
+    background-color: green;
+  }
+  h2{
+    text-align: center;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  a:hover{
+    color: red;
+  }
